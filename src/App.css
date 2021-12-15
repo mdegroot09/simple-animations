@@ -1,0 +1,7 @@
+@import './Home/Home.css';
+@import './Square/Square.css';
+@import './Circle/Circle.css';
+
+.App {
+  text-align: center;
+}

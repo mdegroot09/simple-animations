@@ -1,0 +1,16 @@
+#circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    top: calc(50vh - 50px);;
+    margin-left: calc(50vw - 50px);
+    animation: circleAnimate 3s linear infinite;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@keyframes circleAnimate {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
