@@ -1,0 +1,28 @@
+#diamond {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid blue;
+    position: absolute;
+    margin: 100px 0 0 calc(50vw - 50px);
+    top: 0;
+    animation: moveDiamond 5s linear infinite;
+}
+
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 70px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 70px solid blue;
+}
+
+@keyframes moveDiamond {
+    0% {margin: 100px 0 0 calc(50vw - 50px);}
+    25% {margin: calc(50vh - 120px) 0 0 calc(50vw - 200px);}
+    50% {margin: calc(100vh - 240px) 0 0 calc(50vw - 50px);}
+    75% {margin: calc(50vh - 120px) 0 0 calc(50vw + 200px);}
+}

@@ -26,8 +26,8 @@ class Home extends Component {
                     </Link>
                 </div>
                 <div className="homeBtns">
-                    <Link to='/square'>
-                        <button>Square</button>
+                    <Link to='/diamond'>
+                        <button>Diamond</button>
                     </Link>
                 </div>
             </div>

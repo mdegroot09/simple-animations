@@ -2,6 +2,7 @@
 @import './Square/Square.css';
 @import './Circle/Circle.css';
 @import './Triangle/Triangle.css';
+@import './Diamond/Diamond.css';
 
 .App {
   text-align: center;
